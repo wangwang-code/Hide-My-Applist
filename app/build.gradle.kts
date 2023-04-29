@@ -27,7 +27,10 @@ android {
     kotlinOptions {
         jvmTarget = "11"
     }
-
+    defaultConfig {
+        applicationId = "com.tsng.dingdingdog"
+    }
+    
     applicationVariants.all {
         kotlin {
             sourceSets.getByName(name) {
